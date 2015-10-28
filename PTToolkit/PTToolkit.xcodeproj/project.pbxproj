@@ -14,6 +14,7 @@
 		520BDCC91BE1682A00D0F921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520BDCC81BE1682A00D0F921 /* Assets.xcassets */; };
 		520BDCCC1BE1682A00D0F921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520BDCCA1BE1682A00D0F921 /* LaunchScreen.storyboard */; };
 		520BDCD71BE1682A00D0F921 /* PTToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BDCD61BE1682A00D0F921 /* PTToolkitTests.m */; };
+		520BDCE41BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BDCE31BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		520BDCD21BE1682A00D0F921 /* PTToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520BDCD61BE1682A00D0F921 /* PTToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTToolkitTests.m; sourceTree = "<group>"; };
 		520BDCD81BE1682A00D0F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520BDCE21BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MinFontSizeBinarySearch.h"; sourceTree = "<group>"; };
+		520BDCE31BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MinFontSizeBinarySearch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		520BDCBB1BE1682A00D0F921 /* PTToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				520BDCE11BE168D300D0F921 /* Classes */,
 				520BDCBF1BE1682A00D0F921 /* AppDelegate.h */,
 				520BDCC01BE1682A00D0F921 /* AppDelegate.m */,
 				520BDCC21BE1682A00D0F921 /* ViewController.h */,
@@ -109,6 +113,15 @@
 				520BDCD81BE1682A00D0F921 /* Info.plist */,
 			);
 			path = PTToolkitTests;
+			sourceTree = "<group>";
+		};
+		520BDCE11BE168D300D0F921 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				520BDCE21BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.h */,
+				520BDCE31BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				520BDCC41BE1682A00D0F921 /* ViewController.m in Sources */,
+				520BDCE41BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m in Sources */,
 				520BDCC11BE1682A00D0F921 /* AppDelegate.m in Sources */,
 				520BDCBE1BE1682A00D0F921 /* main.m in Sources */,
 			);
