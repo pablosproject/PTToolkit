@@ -15,6 +15,7 @@
 		520BDCCC1BE1682A00D0F921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520BDCCA1BE1682A00D0F921 /* LaunchScreen.storyboard */; };
 		520BDCD71BE1682A00D0F921 /* PTToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BDCD61BE1682A00D0F921 /* PTToolkitTests.m */; };
 		525A52BF1BE7672D002617D8 /* PTBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A52BE1BE7672D002617D8 /* PTBorderButton.m */; };
+		525A52C21BE76ADE002617D8 /* UIApplication+FirstLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A52C11BE76ADE002617D8 /* UIApplication+FirstLaunch.m */; };
 		6580E9FDD5C12DDD58F7FB92 /* NSString+MinFontSizeBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6580EF30D91A6886A7BD6E11 /* NSString+MinFontSizeBinarySearch.m */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		520BDCD81BE1682A00D0F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525A52BD1BE7672D002617D8 /* PTBorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBorderButton.h; sourceTree = "<group>"; };
 		525A52BE1BE7672D002617D8 /* PTBorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBorderButton.m; sourceTree = "<group>"; };
+		525A52C01BE76ADE002617D8 /* UIApplication+FirstLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+FirstLaunch.h"; sourceTree = "<group>"; };
+		525A52C11BE76ADE002617D8 /* UIApplication+FirstLaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FirstLaunch.m"; sourceTree = "<group>"; };
 		6580E925AA5F2530FA9273D7 /* NSString+MinFontSizeBinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MinFontSizeBinarySearch.h"; sourceTree = "<group>"; };
 		6580EF30D91A6886A7BD6E11 /* NSString+MinFontSizeBinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MinFontSizeBinarySearch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +126,7 @@
 			children = (
 				6580E65EAD5586C1D6756EB5 /* String Min Font Size */,
 				6580E0ED4941E387D03DBE8D /* Bordered Button */,
+				6580E44862EC45C965710EAE /* First Launch */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -134,6 +138,15 @@
 				525A52BE1BE7672D002617D8 /* PTBorderButton.m */,
 			);
 			path = "Bordered Button";
+			sourceTree = "<group>";
+		};
+		6580E44862EC45C965710EAE /* First Launch */ = {
+			isa = PBXGroup;
+			children = (
+				525A52C01BE76ADE002617D8 /* UIApplication+FirstLaunch.h */,
+				525A52C11BE76ADE002617D8 /* UIApplication+FirstLaunch.m */,
+			);
+			path = "First Launch";
 			sourceTree = "<group>";
 		};
 		6580E65EAD5586C1D6756EB5 /* String Min Font Size */ = {
@@ -247,6 +260,7 @@
 			files = (
 				520BDCC41BE1682A00D0F921 /* ViewController.m in Sources */,
 				520BDCC11BE1682A00D0F921 /* AppDelegate.m in Sources */,
+				525A52C21BE76ADE002617D8 /* UIApplication+FirstLaunch.m in Sources */,
 				525A52BF1BE7672D002617D8 /* PTBorderButton.m in Sources */,
 				520BDCBE1BE1682A00D0F921 /* main.m in Sources */,
 				6580E9FDD5C12DDD58F7FB92 /* NSString+MinFontSizeBinarySearch.m in Sources */,
