@@ -14,7 +14,8 @@
 		520BDCC91BE1682A00D0F921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520BDCC81BE1682A00D0F921 /* Assets.xcassets */; };
 		520BDCCC1BE1682A00D0F921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520BDCCA1BE1682A00D0F921 /* LaunchScreen.storyboard */; };
 		520BDCD71BE1682A00D0F921 /* PTToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BDCD61BE1682A00D0F921 /* PTToolkitTests.m */; };
-		520BDCE41BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BDCE31BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m */; };
+		525A52BF1BE7672D002617D8 /* PTBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A52BE1BE7672D002617D8 /* PTBorderButton.m */; };
+		6580E9FDD5C12DDD58F7FB92 /* NSString+MinFontSizeBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6580EF30D91A6886A7BD6E11 /* NSString+MinFontSizeBinarySearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +42,10 @@
 		520BDCD21BE1682A00D0F921 /* PTToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520BDCD61BE1682A00D0F921 /* PTToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTToolkitTests.m; sourceTree = "<group>"; };
 		520BDCD81BE1682A00D0F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		520BDCE21BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MinFontSizeBinarySearch.h"; sourceTree = "<group>"; };
-		520BDCE31BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MinFontSizeBinarySearch.m"; sourceTree = "<group>"; };
+		525A52BD1BE7672D002617D8 /* PTBorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBorderButton.h; sourceTree = "<group>"; };
+		525A52BE1BE7672D002617D8 /* PTBorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBorderButton.m; sourceTree = "<group>"; };
+		6580E925AA5F2530FA9273D7 /* NSString+MinFontSizeBinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MinFontSizeBinarySearch.h"; sourceTree = "<group>"; };
+		6580EF30D91A6886A7BD6E11 /* NSString+MinFontSizeBinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MinFontSizeBinarySearch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +121,28 @@
 		520BDCE11BE168D300D0F921 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				520BDCE21BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.h */,
-				520BDCE31BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m */,
+				6580E65EAD5586C1D6756EB5 /* String Min Font Size */,
+				6580E0ED4941E387D03DBE8D /* Bordered Button */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		6580E0ED4941E387D03DBE8D /* Bordered Button */ = {
+			isa = PBXGroup;
+			children = (
+				525A52BD1BE7672D002617D8 /* PTBorderButton.h */,
+				525A52BE1BE7672D002617D8 /* PTBorderButton.m */,
+			);
+			path = "Bordered Button";
+			sourceTree = "<group>";
+		};
+		6580E65EAD5586C1D6756EB5 /* String Min Font Size */ = {
+			isa = PBXGroup;
+			children = (
+				6580EF30D91A6886A7BD6E11 /* NSString+MinFontSizeBinarySearch.m */,
+				6580E925AA5F2530FA9273D7 /* NSString+MinFontSizeBinarySearch.h */,
+			);
+			path = "String Min Font Size";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +246,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				520BDCC41BE1682A00D0F921 /* ViewController.m in Sources */,
-				520BDCE41BE168D300D0F921 /* NSString+MinFontSizeBinarySearch.m in Sources */,
 				520BDCC11BE1682A00D0F921 /* AppDelegate.m in Sources */,
+				525A52BF1BE7672D002617D8 /* PTBorderButton.m in Sources */,
 				520BDCBE1BE1682A00D0F921 /* main.m in Sources */,
+				6580E9FDD5C12DDD58F7FB92 /* NSString+MinFontSizeBinarySearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +436,7 @@
 				520BDCDD1BE1682A00D0F921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		520BDCDE1BE1682A00D0F921 /* Build configuration list for PBXNativeTarget "PTToolkitTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +445,7 @@
 				520BDCE01BE1682A00D0F921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
