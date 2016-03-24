@@ -14,6 +14,7 @@
 		520BDCC91BE1682A00D0F921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520BDCC81BE1682A00D0F921 /* Assets.xcassets */; };
 		520BDCCC1BE1682A00D0F921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520BDCCA1BE1682A00D0F921 /* LaunchScreen.storyboard */; };
 		520BDCD71BE1682A00D0F921 /* PTToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BDCD61BE1682A00D0F921 /* PTToolkitTests.m */; };
+		52516B481CA41D380088AAF1 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52516B471CA41D380088AAF1 /* NSString+Validation.m */; };
 		525A52BF1BE7672D002617D8 /* PTBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A52BE1BE7672D002617D8 /* PTBorderButton.m */; };
 		525A52C21BE76ADE002617D8 /* UIApplication+FirstLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A52C11BE76ADE002617D8 /* UIApplication+FirstLaunch.m */; };
 		6580E9FDD5C12DDD58F7FB92 /* NSString+MinFontSizeBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6580EF30D91A6886A7BD6E11 /* NSString+MinFontSizeBinarySearch.m */; };
@@ -43,6 +44,8 @@
 		520BDCD21BE1682A00D0F921 /* PTToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520BDCD61BE1682A00D0F921 /* PTToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTToolkitTests.m; sourceTree = "<group>"; };
 		520BDCD81BE1682A00D0F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52516B461CA41D380088AAF1 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Validation.h"; path = "String Validation/NSString+Validation.h"; sourceTree = "<group>"; };
+		52516B471CA41D380088AAF1 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Validation.m"; path = "String Validation/NSString+Validation.m"; sourceTree = "<group>"; };
 		525A52BD1BE7672D002617D8 /* PTBorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBorderButton.h; sourceTree = "<group>"; };
 		525A52BE1BE7672D002617D8 /* PTBorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBorderButton.m; sourceTree = "<group>"; };
 		525A52C01BE76ADE002617D8 /* UIApplication+FirstLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+FirstLaunch.h"; sourceTree = "<group>"; };
@@ -124,11 +127,21 @@
 		520BDCE11BE168D300D0F921 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				52516B451CA41D1A0088AAF1 /* String Validation */,
 				6580E65EAD5586C1D6756EB5 /* String Min Font Size */,
 				6580E0ED4941E387D03DBE8D /* Bordered Button */,
 				6580E44862EC45C965710EAE /* First Launch */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		52516B451CA41D1A0088AAF1 /* String Validation */ = {
+			isa = PBXGroup;
+			children = (
+				52516B461CA41D380088AAF1 /* NSString+Validation.h */,
+				52516B471CA41D380088AAF1 /* NSString+Validation.m */,
+			);
+			name = "String Validation";
 			sourceTree = "<group>";
 		};
 		6580E0ED4941E387D03DBE8D /* Bordered Button */ = {
@@ -260,6 +273,7 @@
 			files = (
 				520BDCC41BE1682A00D0F921 /* ViewController.m in Sources */,
 				520BDCC11BE1682A00D0F921 /* AppDelegate.m in Sources */,
+				52516B481CA41D380088AAF1 /* NSString+Validation.m in Sources */,
 				525A52C21BE76ADE002617D8 /* UIApplication+FirstLaunch.m in Sources */,
 				525A52BF1BE7672D002617D8 /* PTBorderButton.m in Sources */,
 				520BDCBE1BE1682A00D0F921 /* main.m in Sources */,

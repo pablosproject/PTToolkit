@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/PTToolkit/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PTToolkit/Classes/Bordered Button/PTBorderButton.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PTToolkit/Classes/Bordered Button/PTBorderButton.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PTToolkit/Classes/First Launch/UIApplication+FirstLaunch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PTToolkit/Classes/First Launch/UIApplication+FirstLaunch.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PTToolkit/Classes/String Min Font Size/NSString+MinFontSizeBinarySearch.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PTToolkit/Classes/String Min Font Size/NSString+MinFontSizeBinarySearch.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PTToolkit/Info.plist" isTestSource="false" />
